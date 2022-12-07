@@ -1,0 +1,135 @@
+/* HTML */
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: hsl(36, 100%, 99%);
+}
+h1 {
+    font-weight: 800;
+    color: hsl(240, 100%, 5%);
+}
+p {
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);;
+}
+a {
+    text-decoration: none;
+}
+hr {
+    color: hsl(233, 8%, 79%);
+    margin: 30px 0;
+}
+/* Navbar */
+#main-menu {
+    padding-top: 2.5%;
+}
+.navbar a:hover {
+    color: hsl(35, 77%, 62%);
+}
+/* Highlight top section */
+#highlight-top {
+    margin-top: 2%;
+}
+.highlight-block {
+    padding-right: 2.5%;
+}
+.news-column {
+    background-color: hsl(240, 100%, 5%);
+    padding: 2%;
+    line-height: 1.5;
+}
+.news-column h2 {
+    color: hsl(35, 77%, 62%);
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+.news-column h3 {
+    color: hsl(36, 100%, 99%);
+    font-size: 1.5rem;
+}
+.news-column a {
+    color: hsl(36, 100%, 99%);;
+}
+.news-column a:hover {
+    color: hsl(35, 77%, 62%);
+}
+.img-main {
+    width: 100%;
+}
+.highlight-article {
+    margin-top: 3%;
+}
+.hightlight-bloc-text-article {
+    padding-right: 40px;
+}
+.highlight-title-article {
+    font-size: 3.5rem;
+    line-height: 1;
+    padding-right: 30px;
+}
+.highlight-text-article {
+    line-height: 1.5;
+}
+/* Button */
+.highlight-btn-read-more {
+    text-transform: uppercase;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    border: 0px;
+    padding: 15px 40px;
+    margin-top: 6%;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.highlight-btn-read-more:hover {
+    background-color: hsl(240, 100%, 5%);
+}
+/* Highlight bottom section */
+#highlight-bottom {
+    padding-top: 4%;
+}
+.list-number-articles {
+    font-size: 2rem;
+    font-weight: 700;
+    color: hsl(233, 8%, 79%);
+    margin: 0;
+}
+#highlight-bottom h3 {
+    font-size: 18px;
+    font-weight: 800;
+}
+#highlight-bottom a {
+    color: hsl(240, 100%, 5%);
+}
+#highlight-bottom a:hover {
+    color: hsl(5, 85%, 63%);
+}
+.img-article-highlight-bottom {
+    width: 100%;
+    padding-top: 10px;
+}
+/* Attribution section */
+#attribution {
+    padding: 7% 15%;
+}
+#attribution a {
+    color: hsl(5, 85%, 63%);
+}
+#attribution a:hover {
+    color: hsl(240, 100%, 5%);
+}
+/* Responsive */
+@media (max-width: 900px) {
+    .img-article-highlight-bottom {
+        width: 100%;
+    }
+    #highlight-bottom {
+        margin-top: 2%;
+    }
+    .col-4, .col-8 {
+        margin-top: 7%;
+    }
+    .news-column {
+        margin-top: 50px;
+    }
+}

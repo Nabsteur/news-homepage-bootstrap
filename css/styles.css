@@ -17,7 +17,7 @@ a {
 }
 hr {
     color: hsl(233, 8%, 79%);
-    margin: 30px 0;
+    margin-bottom: 30px;
 }
 /* Navbar */
 #main-menu {
@@ -37,6 +37,8 @@ hr {
     background-color: hsl(240, 100%, 5%);
     padding: 2%;
     line-height: 1.5;
+    display: flex;
+    flex-flow: column;
 }
 .news-column h2 {
     color: hsl(35, 77%, 62%);
